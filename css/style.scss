@@ -1,0 +1,72 @@
+ul{
+    border: 5px solid rgb(0, 0, 0);
+    list-style: none;
+    display: flex;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;  
+    background-color: rgb(255, 235, 205);
+}
+
+ul a{
+    display: block;
+    padding: 8px 195px;
+}
+
+.imagen1{
+    border: 4px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 300px;
+    left: 600px;
+    position: relative;
+    -webkit-transition: 2s;
+    transition: 2s;  
+}
+
+body{
+    background-color: rgb(252, 242, 228);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+h2{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contacto-1{
+    border: 4px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 1150px;
+    bottom: 960px;
+    background-color: rgb(255, 235, 205);
+}
+
+#sobremi{
+    background-color: rgb(255, 235, 205);
+    border: 4px solid black;
+    height: 500px;
+    width: 500px;
+}
+
+.sobremi1{
+    position: relative;
+    top: 50px;
+}
+
+
+.sobremi2{
+    position: relative;
+    left: 580px;
+    bottom: 455px;
+}
+
+.imagen1:hover{
+    transform: rotate(360deg) ;
+    -webkit-transform: rotate(360deg), translateZ(0);
+}
